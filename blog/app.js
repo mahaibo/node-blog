@@ -67,6 +67,5 @@ app.use(function(err, req, res, next) {
 });
 
 
-
-app.listen(config.port)
+app.listen(80)
 module.exports = app;
