@@ -31,7 +31,7 @@ app.use('/users', users);
 app.use(function(req, res, next) {
   if (req.method==='POST'){
     console.log("POST")
-    console.log(body)
+    console.log(req.body)
   }
 
 
