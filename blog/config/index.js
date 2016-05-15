@@ -1,7 +1,7 @@
 var path=require('path')
 
 // 通过NODE_ENV来设置环境变量，如果没有指定则默认为生产环境
-var env=process.env.NODE_ENV || 'production';
+var env=process.env.NODE_ENV || 'development';
 env=env.toLowerCase();
 
 // 载入配置文件
