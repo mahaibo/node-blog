@@ -29,7 +29,7 @@ app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  if (req.method==='post'){
+  if (req.method==='POST'){
     console.log("POST")
     console.log(body)
   }
